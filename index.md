@@ -1,8 +1,7 @@
 ---
 layout: home
+title : One Notebook
 ---
-
-# One Notebook
 Copyright 2019 Tao He.
 
 [1]: https://pages.github.com
