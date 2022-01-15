@@ -40,13 +40,13 @@ G为**Generator**，它的作用是生成图片，也就是说，在输入一个
 对网络增加**限制（constraint）**
 > 马克吐温认为，如果一把一段话从英文翻译成法文，再从法文翻译回英文，那么你应该得到跟之前原始输入的英文一样的内容。
 
-除了把马变成斑马的网络G，我们还需要一个把斑马变回马的网络F。
+除了把马变成斑马的网络G，我们还需要一个把斑马变回马的网络F。  
 ![](https://img-blog.csdn.net/20180914044957957?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2dkeW1pbmQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 #### github:pytorch-CycleGAN-and-pix2pix
 <https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix>
 
 # pix2pixHD
-**金字塔式**的方法  
+#### **金字塔式**的方法  
 1. 先输出低分辨率的图片。  
 2. 将之前输出的低分辨率图片作为另一个网络的输入，然后生成分辨率更高的图片。
 #### **实时**产生？语义分割？
